@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+*.env
+.venv/
+venv/
+.DS_Store
+data/*.parquet
+data/*.csv
+*.h5
+*.pkl
+*.pt
+*.pth
+.ipynb_checkpoints/
+*.log
+mlruns/
+*.idea/
+.vscode/
+# Allow results artifacts
+!results/*.csv
+!results/*.parquet
+!results/*.png
+!results/*.md

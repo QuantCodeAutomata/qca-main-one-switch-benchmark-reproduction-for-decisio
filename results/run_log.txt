@@ -1,0 +1,627 @@
+nohup: ignoring input
+16:34:04 INFO     Starting full benchmark suite …
+16:34:04 INFO     Running full benchmark grid (144 configs × 9 years) …
+16:34:04 INFO     Loading US market data …
+16:34:04 INFO     Loading cached US data from data/us_ohlcv.parquet …
+16:34:04 INFO     [1/144] Running US|Momentum|h5|CLEAN
+16:34:20 INFO     [2/144] Running US|Momentum|h5|TEMP_CENTER
+16:34:35 INFO     [3/144] Running US|Momentum|h5|NORM_GLOBAL
+16:34:51 INFO     [4/144] Running US|Momentum|h5|STRUCT_GRAPH
+16:35:07 INFO     [5/144] Running US|Momentum|h5|EXEC_CLOSE
+16:35:22 INFO     [6/144] Running US|Momentum|h5|EXEC_OPEN
+16:35:37 INFO     [7/144] Running US|Momentum|h20|CLEAN
+16:35:54 INFO     [8/144] Running US|Momentum|h20|TEMP_CENTER
+16:36:10 INFO     [9/144] Running US|Momentum|h20|NORM_GLOBAL
+16:36:25 INFO     [10/144] Running US|Momentum|h20|STRUCT_GRAPH
+16:36:40 INFO     [11/144] Running US|Momentum|h20|EXEC_CLOSE
+16:36:56 INFO     [12/144] Running US|Momentum|h20|EXEC_OPEN
+16:37:11 INFO     [13/144] Running US|Ridge|h5|CLEAN
+16:37:28 INFO     [14/144] Running US|Ridge|h5|TEMP_CENTER
+16:37:44 INFO     [15/144] Running US|Ridge|h5|NORM_GLOBAL
+16:38:02 INFO     [16/144] Running US|Ridge|h5|STRUCT_GRAPH
+16:38:18 INFO     [17/144] Running US|Ridge|h5|EXEC_CLOSE
+16:38:35 INFO     [18/144] Running US|Ridge|h5|EXEC_OPEN
+16:38:52 INFO     [19/144] Running US|Ridge|h20|CLEAN
+16:39:08 INFO     [20/144] Running US|Ridge|h20|TEMP_CENTER
+16:39:24 INFO     [21/144] Running US|Ridge|h20|NORM_GLOBAL
+16:39:40 INFO     [22/144] Running US|Ridge|h20|STRUCT_GRAPH
+16:39:58 INFO     [23/144] Running US|Ridge|h20|EXEC_CLOSE
+16:40:15 INFO     [24/144] Running US|Ridge|h20|EXEC_OPEN
+16:40:31 INFO     [25/144] Running US|LightGBM|h5|CLEAN
+16:40:53 INFO     [26/144] Running US|LightGBM|h5|TEMP_CENTER
+16:41:15 INFO     [27/144] Running US|LightGBM|h5|NORM_GLOBAL
+16:41:37 INFO     [28/144] Running US|LightGBM|h5|STRUCT_GRAPH
+16:42:00 INFO     [29/144] Running US|LightGBM|h5|EXEC_CLOSE
+16:42:23 INFO     [30/144] Running US|LightGBM|h5|EXEC_OPEN
+16:42:45 INFO     [31/144] Running US|LightGBM|h20|CLEAN
+16:43:09 INFO     [32/144] Running US|LightGBM|h20|TEMP_CENTER
+16:43:31 INFO     [33/144] Running US|LightGBM|h20|NORM_GLOBAL
+16:43:53 INFO     [34/144] Running US|LightGBM|h20|STRUCT_GRAPH
+16:44:15 INFO     [35/144] Running US|LightGBM|h20|EXEC_CLOSE
+16:44:36 INFO     [36/144] Running US|LightGBM|h20|EXEC_OPEN
+16:44:58 INFO     [37/144] Running US|GraphMLP|h5|CLEAN
+16:44:59 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:44:59 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:45:07 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:45:08 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:45:15 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:45:15 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:45:23 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:45:23 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:45:32 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:45:32 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:45:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:45:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:45:52 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:45:52 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:46:03 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:46:03 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:46:15 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:46:15 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:46:28 INFO     [38/144] Running US|GraphMLP|h5|TEMP_CENTER
+16:46:28 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:46:28 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:46:34 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:46:34 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:46:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:46:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:46:49 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:46:49 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:46:59 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:46:59 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:47:09 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:47:10 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:47:20 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:47:20 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:47:31 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:47:31 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:47:44 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:47:44 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:47:57 INFO     [39/144] Running US|GraphMLP|h5|NORM_GLOBAL
+16:47:57 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:47:57 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:48:05 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:48:05 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:48:12 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:48:13 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:48:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:48:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:48:29 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:48:29 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:48:38 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:48:38 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:48:49 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:48:49 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:49:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:49:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:49:12 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:49:12 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:49:25 INFO     [40/144] Running US|GraphMLP|h5|STRUCT_GRAPH
+16:50:51 INFO     [41/144] Running US|GraphMLP|h5|EXEC_CLOSE
+16:50:52 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:50:52 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:50:58 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:50:59 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:51:06 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:51:06 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:51:13 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:51:14 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:51:22 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:51:22 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:51:32 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:51:32 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:51:42 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:51:42 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:51:53 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:51:53 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:52:07 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:52:07 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:52:20 INFO     [42/144] Running US|GraphMLP|h5|EXEC_OPEN
+16:52:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:52:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:52:26 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:52:26 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:52:34 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:52:34 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:52:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:52:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:52:50 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:52:50 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:53:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:53:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:53:10 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:53:10 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:53:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:53:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:53:33 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:53:33 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:53:47 INFO     [43/144] Running US|GraphMLP|h20|CLEAN
+16:53:47 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:53:47 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:53:53 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:53:54 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:54:01 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:54:01 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:54:10 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:54:10 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:54:19 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:54:19 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:54:29 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:54:29 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:54:40 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:54:40 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:54:51 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:54:51 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:55:04 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:55:04 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:55:18 INFO     [44/144] Running US|GraphMLP|h20|TEMP_CENTER
+16:55:19 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:55:19 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:55:25 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:55:25 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:55:32 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:55:32 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:55:40 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:55:40 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:55:49 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:55:49 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:55:58 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:55:58 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:56:09 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:56:09 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:56:20 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:56:20 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:56:32 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:56:32 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:56:45 INFO     [45/144] Running US|GraphMLP|h20|NORM_GLOBAL
+16:56:45 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:56:45 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:56:52 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:56:52 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:56:59 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:56:59 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:57:07 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:57:07 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:57:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:57:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:57:27 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:57:27 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:57:38 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:57:38 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:57:49 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:57:50 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:58:01 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:58:01 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:58:15 INFO     [46/144] Running US|GraphMLP|h20|STRUCT_GRAPH
+16:59:44 INFO     [47/144] Running US|GraphMLP|h20|EXEC_CLOSE
+16:59:44 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:59:44 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:59:51 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:59:51 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+16:59:58 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+16:59:58 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:00:08 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:00:08 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:00:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:00:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:00:28 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:00:28 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:00:38 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:00:38 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:00:49 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:00:49 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:01:01 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:01:01 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:01:14 INFO     [48/144] Running US|GraphMLP|h20|EXEC_OPEN
+17:01:15 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:01:15 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:01:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:01:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:01:28 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:01:28 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:01:36 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:01:36 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:01:44 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:01:45 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:01:54 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:01:54 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:02:04 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:02:04 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:02:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:02:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:02:30 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:02:30 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:02:43 INFO     [49/144] Running US|LSTM|h5|CLEAN
+17:03:10 INFO     [50/144] Running US|LSTM|h5|TEMP_CENTER
+17:03:37 INFO     [51/144] Running US|LSTM|h5|NORM_GLOBAL
+17:04:04 INFO     [52/144] Running US|LSTM|h5|STRUCT_GRAPH
+17:04:29 INFO     [53/144] Running US|LSTM|h5|EXEC_CLOSE
+17:04:55 INFO     [54/144] Running US|LSTM|h5|EXEC_OPEN
+17:05:23 INFO     [55/144] Running US|LSTM|h20|CLEAN
+17:05:49 INFO     [56/144] Running US|LSTM|h20|TEMP_CENTER
+17:06:15 INFO     [57/144] Running US|LSTM|h20|NORM_GLOBAL
+17:06:41 INFO     [58/144] Running US|LSTM|h20|STRUCT_GRAPH
+17:07:06 INFO     [59/144] Running US|LSTM|h20|EXEC_CLOSE
+17:07:35 INFO     [60/144] Running US|LSTM|h20|EXEC_OPEN
+17:08:00 INFO     [61/144] Running US|Transformer|h5|CLEAN
+17:09:32 INFO     [62/144] Running US|Transformer|h5|TEMP_CENTER
+17:11:01 INFO     [63/144] Running US|Transformer|h5|NORM_GLOBAL
+17:12:33 INFO     [64/144] Running US|Transformer|h5|STRUCT_GRAPH
+17:14:03 INFO     [65/144] Running US|Transformer|h5|EXEC_CLOSE
+17:15:35 INFO     [66/144] Running US|Transformer|h5|EXEC_OPEN
+17:17:06 INFO     [67/144] Running US|Transformer|h20|CLEAN
+17:18:37 INFO     [68/144] Running US|Transformer|h20|TEMP_CENTER
+17:20:05 INFO     [69/144] Running US|Transformer|h20|NORM_GLOBAL
+17:21:36 INFO     [70/144] Running US|Transformer|h20|STRUCT_GRAPH
+17:23:07 INFO     [71/144] Running US|Transformer|h20|EXEC_CLOSE
+17:24:37 INFO     [72/144] Running US|Transformer|h20|EXEC_OPEN
+17:26:06 INFO     Loading China market data …
+17:26:06 INFO     Loading cached China data from data/china_ohlcv.parquet …
+17:26:06 INFO     [73/144] Running China|Momentum|h5|CLEAN
+17:26:21 INFO     [74/144] Running China|Momentum|h5|TEMP_CENTER
+17:26:37 INFO     [75/144] Running China|Momentum|h5|NORM_GLOBAL
+17:26:52 INFO     [76/144] Running China|Momentum|h5|STRUCT_GRAPH
+17:27:07 INFO     [77/144] Running China|Momentum|h5|EXEC_CLOSE
+17:27:22 INFO     [78/144] Running China|Momentum|h5|EXEC_OPEN
+17:27:38 INFO     [79/144] Running China|Momentum|h20|CLEAN
+17:27:53 INFO     [80/144] Running China|Momentum|h20|TEMP_CENTER
+17:28:08 INFO     [81/144] Running China|Momentum|h20|NORM_GLOBAL
+17:28:24 INFO     [82/144] Running China|Momentum|h20|STRUCT_GRAPH
+17:28:39 INFO     [83/144] Running China|Momentum|h20|EXEC_CLOSE
+17:28:54 INFO     [84/144] Running China|Momentum|h20|EXEC_OPEN
+17:29:09 INFO     [85/144] Running China|Ridge|h5|CLEAN
+17:29:25 INFO     [86/144] Running China|Ridge|h5|TEMP_CENTER
+17:29:42 INFO     [87/144] Running China|Ridge|h5|NORM_GLOBAL
+17:29:58 INFO     [88/144] Running China|Ridge|h5|STRUCT_GRAPH
+17:30:14 INFO     [89/144] Running China|Ridge|h5|EXEC_CLOSE
+17:30:29 INFO     [90/144] Running China|Ridge|h5|EXEC_OPEN
+17:30:45 INFO     [91/144] Running China|Ridge|h20|CLEAN
+17:31:01 INFO     [92/144] Running China|Ridge|h20|TEMP_CENTER
+17:31:16 INFO     [93/144] Running China|Ridge|h20|NORM_GLOBAL
+17:31:32 INFO     [94/144] Running China|Ridge|h20|STRUCT_GRAPH
+17:31:49 INFO     [95/144] Running China|Ridge|h20|EXEC_CLOSE
+17:32:04 INFO     [96/144] Running China|Ridge|h20|EXEC_OPEN
+17:32:20 INFO     [97/144] Running China|LightGBM|h5|CLEAN
+17:32:42 INFO     [98/144] Running China|LightGBM|h5|TEMP_CENTER
+17:33:04 INFO     [99/144] Running China|LightGBM|h5|NORM_GLOBAL
+17:33:24 INFO     [100/144] Running China|LightGBM|h5|STRUCT_GRAPH
+17:33:45 INFO     [101/144] Running China|LightGBM|h5|EXEC_CLOSE
+17:34:06 INFO     [102/144] Running China|LightGBM|h5|EXEC_OPEN
+17:34:26 INFO     [103/144] Running China|LightGBM|h20|CLEAN
+17:34:49 INFO     [104/144] Running China|LightGBM|h20|TEMP_CENTER
+17:35:11 INFO     [105/144] Running China|LightGBM|h20|NORM_GLOBAL
+17:35:31 INFO     [106/144] Running China|LightGBM|h20|STRUCT_GRAPH
+17:35:51 INFO     [107/144] Running China|LightGBM|h20|EXEC_CLOSE
+17:36:12 INFO     [108/144] Running China|LightGBM|h20|EXEC_OPEN
+17:36:32 INFO     [109/144] Running China|GraphMLP|h5|CLEAN
+17:36:33 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:36:33 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:36:39 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:36:39 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:36:47 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:36:47 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:36:54 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:36:54 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:37:03 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:37:03 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:37:13 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:37:13 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:37:23 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:37:23 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:37:34 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:37:34 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:37:45 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:37:45 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:37:57 INFO     [110/144] Running China|GraphMLP|h5|TEMP_CENTER
+17:37:58 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:37:58 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:38:04 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:38:04 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:38:10 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:38:10 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:38:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:38:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:38:26 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:38:26 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:38:35 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:38:35 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:38:46 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:38:46 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:38:57 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:38:57 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:39:09 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:39:09 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:39:21 INFO     [111/144] Running China|GraphMLP|h5|NORM_GLOBAL
+17:39:22 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:39:22 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:39:27 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:39:27 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:39:34 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:39:34 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:39:42 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:39:42 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:39:50 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:39:50 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:40:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:40:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:40:10 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:40:10 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:40:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:40:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:40:32 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:40:32 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:40:45 INFO     [112/144] Running China|GraphMLP|h5|STRUCT_GRAPH
+17:42:07 INFO     [113/144] Running China|GraphMLP|h5|EXEC_CLOSE
+17:42:08 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:42:08 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:42:14 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:42:14 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:42:20 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:42:20 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:42:27 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:42:27 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:42:36 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:42:36 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:42:45 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:42:45 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:42:55 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:42:55 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:43:06 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:43:06 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:43:18 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:43:18 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:43:30 INFO     [114/144] Running China|GraphMLP|h5|EXEC_OPEN
+17:43:31 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:43:31 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:43:36 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:43:36 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:43:43 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:43:43 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:43:50 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:43:50 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:43:58 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:43:59 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:44:08 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:44:08 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:44:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:44:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:44:28 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:44:28 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:44:40 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:44:40 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:44:53 INFO     [115/144] Running China|GraphMLP|h20|CLEAN
+17:44:53 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:44:53 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:45:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:45:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:45:06 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:45:06 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:45:14 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:45:14 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:45:22 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:45:22 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:45:31 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:45:31 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:45:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:45:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:45:52 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:45:52 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:46:05 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:46:05 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:46:17 INFO     [116/144] Running China|GraphMLP|h20|TEMP_CENTER
+17:46:18 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:46:18 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:46:24 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:46:24 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:46:30 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:46:30 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:46:38 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:46:38 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:46:47 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:46:47 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:46:56 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:46:56 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:47:06 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:47:06 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:47:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:47:17 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:47:28 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:47:28 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:47:40 INFO     [117/144] Running China|GraphMLP|h20|NORM_GLOBAL
+17:47:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:47:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:47:47 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:47:48 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:47:55 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:47:55 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:48:03 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:48:03 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:48:11 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:48:11 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:48:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:48:21 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:48:31 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:48:31 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:48:42 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:48:42 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:48:54 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:48:55 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:49:08 INFO     [118/144] Running China|GraphMLP|h20|STRUCT_GRAPH
+17:50:30 INFO     [119/144] Running China|GraphMLP|h20|EXEC_CLOSE
+17:50:30 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:50:30 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:50:36 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:50:36 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:50:43 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:50:43 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:50:51 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:50:51 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:51:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:51:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:51:09 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:51:09 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:51:19 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:51:19 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:51:29 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:51:29 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:51:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:51:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:51:53 INFO     [120/144] Running China|GraphMLP|h20|EXEC_OPEN
+17:51:54 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:51:54 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:52:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:52:00 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:52:06 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:52:06 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:52:14 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:52:14 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:52:22 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:52:22 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:52:31 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:52:31 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:52:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:52:41 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:52:52 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:52:52 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:53:03 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-01-04 – returning zero matrix
+17:53:03 WARNING  build_monthly_graph: fewer than 2 valid tickers at 2010-02-01 – returning zero matrix
+17:53:15 INFO     [121/144] Running China|LSTM|h5|CLEAN
+17:53:37 INFO     [122/144] Running China|LSTM|h5|TEMP_CENTER
+17:53:58 INFO     [123/144] Running China|LSTM|h5|NORM_GLOBAL
+17:54:20 INFO     [124/144] Running China|LSTM|h5|STRUCT_GRAPH
+17:54:42 INFO     [125/144] Running China|LSTM|h5|EXEC_CLOSE
+17:55:07 INFO     [126/144] Running China|LSTM|h5|EXEC_OPEN
+17:55:29 INFO     [127/144] Running China|LSTM|h20|CLEAN
+17:55:51 INFO     [128/144] Running China|LSTM|h20|TEMP_CENTER
+17:56:13 INFO     [129/144] Running China|LSTM|h20|NORM_GLOBAL
+17:56:34 INFO     [130/144] Running China|LSTM|h20|STRUCT_GRAPH
+17:56:56 INFO     [131/144] Running China|LSTM|h20|EXEC_CLOSE
+17:57:20 INFO     [132/144] Running China|LSTM|h20|EXEC_OPEN
+17:57:42 INFO     [133/144] Running China|Transformer|h5|CLEAN
+17:59:13 INFO     [134/144] Running China|Transformer|h5|TEMP_CENTER
+18:00:42 INFO     [135/144] Running China|Transformer|h5|NORM_GLOBAL
+18:02:14 INFO     [136/144] Running China|Transformer|h5|STRUCT_GRAPH
+18:03:44 INFO     [137/144] Running China|Transformer|h5|EXEC_CLOSE
+18:05:13 INFO     [138/144] Running China|Transformer|h5|EXEC_OPEN
+18:06:40 INFO     [139/144] Running China|Transformer|h20|CLEAN
+18:08:14 INFO     [140/144] Running China|Transformer|h20|TEMP_CENTER
+18:09:44 INFO     [141/144] Running China|Transformer|h20|NORM_GLOBAL
+18:11:15 INFO     [142/144] Running China|Transformer|h20|STRUCT_GRAPH
+18:12:45 INFO     [143/144] Running China|Transformer|h20|EXEC_CLOSE
+18:14:14 INFO     [144/144] Running China|Transformer|h20|EXEC_OPEN
+18:15:46 INFO     Saved 1296 result rows to results/
+18:15:46 INFO     Benchmark grid: 1296 rows, columns: ['market', 'model', 'horizon', 'protocol', 'SR@0bps', 'SR@5bps', 'SR@10bps', 'max_drawdown', 'mean_turnover', 'rankic', 'auc', 'year']
+18:15:46 INFO     === EXP 1: Main benchmark table ===
+18:15:46 INFO     Saved exp1_benchmark_table.csv (20 rows)
+18:15:46 INFO     Saved exp1_metrics.csv (1296 rows)
+18:15:47 INFO     Saved exp1_leakage_heatmap.png
+18:15:48 INFO     Saved exp1_mean_lg_bar plots
+18:15:48 INFO     === EXP 2: Year-level stability ===
+18:15:50 INFO     Saved exp2_stability.csv (120 rows)
+18:15:52 INFO     Saved exp2_yearly_stability.png
+18:15:52 INFO     === EXP 3: Transaction-cost sensitivity (Ridge h=5) ===
+18:15:52 INFO       Loading US data …
+18:15:52 INFO     Loading cached US data from data/us_ohlcv.parquet …
+18:15:52 INFO       Running US|Ridge|h5|CLEAN …
+18:16:08 INFO         SR@0=+1.17 SR@5=+1.01 SR@10=+0.85 SR@25=+0.37 SR@50=-0.43  TO=0.411
+18:16:08 INFO       Running US|Ridge|h5|TEMP_CENTER …
+18:16:25 INFO         SR@0=+8.74 SR@5=+8.44 SR@10=+8.14 SR@25=+7.26 SR@50=+5.79  TO=0.597
+18:16:25 INFO       Running US|Ridge|h5|EXEC_OPEN …
+18:16:41 INFO         SR@0=+17.27 SR@5=+16.86 SR@10=+16.46 SR@25=+15.25 SR@50=+13.23  TO=0.835
+18:16:41 INFO       Loading China data …
+18:16:41 INFO     Loading cached China data from data/china_ohlcv.parquet …
+18:16:41 INFO       Running China|Ridge|h5|CLEAN …
+18:16:56 INFO         SR@0=+1.01 SR@5=+0.73 SR@10=+0.46 SR@25=-0.38 SR@50=-1.76  TO=0.577
+18:16:56 INFO       Running China|Ridge|h5|TEMP_CENTER …
+18:17:12 INFO         SR@0=+8.57 SR@5=+8.33 SR@10=+8.10 SR@25=+7.39 SR@50=+6.22  TO=0.589
+18:17:12 INFO       Running China|Ridge|h5|EXEC_OPEN …
+18:17:28 INFO         SR@0=+20.98 SR@5=+20.64 SR@10=+20.30 SR@25=+19.30 SR@50=+17.63  TO=0.861
+18:17:28 INFO     Saved exp3_cost_sensitivity.csv
+18:17:28 INFO     Saved exp3_lg_cost.csv
+18:17:29 INFO     Saved exp3_cost_sensitivity.png
+18:17:29 INFO     Saved RESULTS.md
+18:17:29 INFO     All experiments complete. Results in results/
+
+=== EXP 1 SUMMARY: Mean LG-SR@5bps by Market & Variant ===
+
+  US:
+    TEMP_CENTER         : mean=+3.297  (n=10)
+    NORM_GLOBAL         : mean=-0.020  (n=10)
+    STRUCT_GRAPH        : mean=+0.000  (n=10)
+    EXEC_CLOSE          : mean=+0.083  (n=10)
+    EXEC_OPEN           : mean=+10.012  (n=10)
+
+  China:
+    TEMP_CENTER         : mean=+3.483  (n=10)
+    NORM_GLOBAL         : mean=-0.027  (n=10)
+    STRUCT_GRAPH        : mean=+0.000  (n=10)
+    EXEC_CLOSE          : mean=-0.031  (n=10)
+    EXEC_OPEN           : mean=+12.297  (n=10)
+
+=== EXP 2 SUMMARY: Stability of TEMP_CENTER & EXEC_OPEN ===
+
+  Variant: TEMP_CENTER
+    US     Momentum     h= 5: mean_LG=+0.784  CI=[+0.343,+1.257]  pos_yrs=8/9  p=0.006
+    US     Momentum     h=20: mean_LG=+0.784  CI=[+0.343,+1.257]  pos_yrs=8/9  p=0.006
+    US     Ridge        h= 5: mean_LG=+7.825  CI=[+6.481,+9.117]  pos_yrs=9/9  p=0.002
+    US     Ridge        h=20: mean_LG=+7.397  CI=[+6.380,+8.418]  pos_yrs=9/9  p=0.002
+    US     LightGBM     h= 5: mean_LG=+8.390  CI=[+7.136,+9.594]  pos_yrs=9/9  p=0.002
+    US     LightGBM     h=20: mean_LG=+6.911  CI=[+5.783,+8.095]  pos_yrs=9/9  p=0.002
+    US     GraphMLP     h= 5: mean_LG=+nan  CI=[+nan,+nan]  pos_yrs=0/9  p=nan
+    US     GraphMLP     h=20: mean_LG=+nan  CI=[+nan,+nan]  pos_yrs=0/9  p=nan
+    US     LSTM         h= 5: mean_LG=+0.228  CI=[-0.175,+0.636]  pos_yrs=7/9  p=0.102
+    US     LSTM         h=20: mean_LG=+0.171  CI=[-0.113,+0.444]  pos_yrs=7/9  p=0.125
+    US     Transformer  h= 5: mean_LG=+0.176  CI=[-0.398,+0.771]  pos_yrs=4/9  p=0.367
+    US     Transformer  h=20: mean_LG=+0.300  CI=[-0.277,+0.902]  pos_yrs=4/9  p=0.248
+    China  Momentum     h= 5: mean_LG=+0.862  CI=[+0.299,+1.400]  pos_yrs=7/9  p=0.014
+    China  Momentum     h=20: mean_LG=+0.862  CI=[+0.299,+1.400]  pos_yrs=7/9  p=0.014
+    China  Ridge        h= 5: mean_LG=+7.805  CI=[+6.853,+8.545]  pos_yrs=9/9  p=0.002
+    China  Ridge        h=20: mean_LG=+8.599  CI=[+7.469,+9.527]  pos_yrs=9/9  p=0.002
+    China  LightGBM     h= 5: mean_LG=+7.903  CI=[+6.931,+8.838]  pos_yrs=9/9  p=0.002
+    China  LightGBM     h=20: mean_LG=+8.016  CI=[+7.254,+8.710]  pos_yrs=9/9  p=0.002
+    China  GraphMLP     h= 5: mean_LG=+nan  CI=[+nan,+nan]  pos_yrs=0/9  p=nan
+    China  GraphMLP     h=20: mean_LG=+nan  CI=[+nan,+nan]  pos_yrs=0/9  p=nan
+    China  LSTM         h= 5: mean_LG=-0.190  CI=[-0.560,+0.200]  pos_yrs=3/9  p=0.875
+    China  LSTM         h=20: mean_LG=+0.099  CI=[-0.341,+0.498]  pos_yrs=6/9  p=0.326
+    China  Transformer  h= 5: mean_LG=+0.516  CI=[-0.033,+1.137]  pos_yrs=6/9  p=0.064
+    China  Transformer  h=20: mean_LG=+0.359  CI=[-0.270,+0.994]  pos_yrs=5/9  p=0.180
+
+  Variant: EXEC_OPEN
+    US     Momentum     h= 5: mean_LG=+20.115  CI=[+17.919,+22.301]  pos_yrs=9/9  p=0.002
+    US     Momentum     h=20: mean_LG=+20.115  CI=[+17.919,+22.301]  pos_yrs=9/9  p=0.002
+    US     Ridge        h= 5: mean_LG=+17.733  CI=[+15.536,+19.915]  pos_yrs=9/9  p=0.002
+    US     Ridge        h=20: mean_LG=+14.239  CI=[+12.488,+15.709]  pos_yrs=9/9  p=0.002
+    US     LightGBM     h= 5: mean_LG=+16.037  CI=[+13.629,+18.311]  pos_yrs=9/9  p=0.002
+    US     LightGBM     h=20: mean_LG=+10.892  CI=[+8.913,+12.707]  pos_yrs=9/9  p=0.002
+    US     GraphMLP     h= 5: mean_LG=+nan  CI=[+nan,+nan]  pos_yrs=0/9  p=nan
+    US     GraphMLP     h=20: mean_LG=+nan  CI=[+nan,+nan]  pos_yrs=0/9  p=nan
+    US     LSTM         h= 5: mean_LG=+0.168  CI=[-0.092,+0.441]  pos_yrs=4/9  p=0.285
+    US     LSTM         h=20: mean_LG=-0.076  CI=[-0.474,+0.311]  pos_yrs=4/9  p=0.674
+    US     Transformer  h= 5: mean_LG=+0.371  CI=[-0.071,+0.760]  pos_yrs=7/9  p=0.064
+    US     Transformer  h=20: mean_LG=+0.528  CI=[+0.092,+0.956]  pos_yrs=7/9  p=0.027
+    China  Momentum     h= 5: mean_LG=+21.643  CI=[+18.815,+24.435]  pos_yrs=9/9  p=0.002
+    China  Momentum     h=20: mean_LG=+21.643  CI=[+18.815,+24.435]  pos_yrs=9/9  p=0.002
+    China  Ridge        h= 5: mean_LG=+21.096  CI=[+18.552,+23.536]  pos_yrs=9/9  p=0.002
+    China  Ridge        h=20: mean_LG=+20.908  CI=[+18.246,+23.583]  pos_yrs=9/9  p=0.002
+    China  LightGBM     h= 5: mean_LG=+20.279  CI=[+17.920,+22.812]  pos_yrs=9/9  p=0.002
+    China  LightGBM     h=20: mean_LG=+17.364  CI=[+15.064,+19.710]  pos_yrs=9/9  p=0.002
+    China  GraphMLP     h= 5: mean_LG=+nan  CI=[+nan,+nan]  pos_yrs=0/9  p=nan
+    China  GraphMLP     h=20: mean_LG=+nan  CI=[+nan,+nan]  pos_yrs=0/9  p=nan
+    China  LSTM         h= 5: mean_LG=-0.474  CI=[-1.122,+0.094]  pos_yrs=4/9  p=0.850
+    China  LSTM         h=20: mean_LG=-0.323  CI=[-0.964,+0.206]  pos_yrs=5/9  p=0.590
+    China  Transformer  h= 5: mean_LG=+0.484  CI=[-0.040,+1.068]  pos_yrs=6/9  p=0.082
+    China  Transformer  h=20: mean_LG=+0.346  CI=[-0.155,+0.907]  pos_yrs=5/9  p=0.150
+
+=== EXP 3 SUMMARY: Ridge h=5 Cost Sensitivity ===
+
+  US:
+    CLEAN       : @0bps=+1.17  @5bps=+1.01  @10bps=+0.85  @25bps=+0.37  @50bps=-0.43  TO=0.411
+    TEMP_CENTER : @0bps=+8.74  @5bps=+8.44  @10bps=+8.14  @25bps=+7.26  @50bps=+5.79  TO=0.597
+    EXEC_OPEN   : @0bps=+17.27  @5bps=+16.86  @10bps=+16.46  @25bps=+15.25  @50bps=+13.23  TO=0.835
+
+  China:
+    CLEAN       : @0bps=+1.01  @5bps=+0.73  @10bps=+0.46  @25bps=-0.38  @50bps=-1.76  TO=0.577
+    TEMP_CENTER : @0bps=+8.57  @5bps=+8.33  @10bps=+8.10  @25bps=+7.39  @50bps=+6.22  TO=0.589
+    EXEC_OPEN   : @0bps=+20.98  @5bps=+20.64  @10bps=+20.30  @25bps=+19.30  @50bps=+17.63  TO=0.861
+
+Done. See results/ for all outputs.
